@@ -1,0 +1,115 @@
+@media screen and (max-width: 480px) {
+    .resp-john{
+        width: 100%;
+        font-size: small;
+        line-height: 23px;
+    }
+
+    .resp-covered-image-text{
+        font-size: 12px;
+        text-align: left;
+        line-height: 15px;
+    }
+
+    .resp-slider-title{
+        font-size: 32px;
+    }
+
+    .second-slider-navigator,.second-slider{
+        display: none;
+    }
+    .responsive-slider{
+        display: flex;
+    }
+
+    .resp-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resp-subsection{
+        align-items: center;
+    }
+    .resp-pic{
+        width: 100%;
+    }
+    .resp-subtitle{
+        margin: 1rem 0;
+    }
+    .resp-pic-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .res-designed{
+        flex-direction: column;
+        width: 100%;
+    }
+    .resp-last-section{
+        flex-direction: column;
+    }
+    .resp-pic-last-section{
+        width: 100%;
+    }
+
+    .respo-text-center{
+        text-align: center;
+    }
+    .resp-nav{
+        width: 100%;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .resp-nav-midd{
+        width: 100%;
+        font-size: 10px;
+    }
+    .resp-slide-subtitle{
+        display: flex;
+        font-size: 9px;
+        line-height: 15px;
+        letter-spacing: .5px;
+        width: 135%;
+    }
+    .slider-title{
+        font-size: 30px;
+    }
+    .resp-nav-counter{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .respo-main{
+        width: 100%;
+        gap: 1rem;
+    }
+    .text-main{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .john-respo{
+        font-size: 10px;
+    }
+    .section-two-text-resp{
+        font-size: 10px;
+        text-align: left;
+        line-height: 24px;
+    }
+    .letter-spacing-respo{
+        letter-spacing: 2px;
+    }
+    .second-slider-navigator , .second-slider{
+        display: none;
+    }
+    .responsive-slider{
+        display: flex;
+    }
+
+}
