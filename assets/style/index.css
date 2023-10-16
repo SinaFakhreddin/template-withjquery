@@ -253,7 +253,7 @@
 }
 
 .fs-14{
-    font-size: 14px;
+    font-size: 14pt;
 }
 
 .flex-2{
@@ -265,12 +265,12 @@
 }
 
 .email-input::placeholder{
-    font-size: 16px;
+    font-size: 16pt;
     padding-left: 1rem;
         }
 
 .fs-32{
-    font-size: 32px;
+    font-size: 32pt;
 }
 .gap-2{
     gap: 2rem;
@@ -301,7 +301,7 @@
 }
 
 .footer-icon{
-    font-size: 20px;
+    font-size: 20pt;
     color: #d7d7d7;
 }
 .buy{
@@ -313,13 +313,13 @@
 
 .card-title{
     color: #d3d3d3;
-    letter-spacing: 3px;
+    letter-spacing: 3pt;
 
 }
 
 .surfboard-cost{
     color: #ce60a8;
-    font-size: 20px;
+    font-size: 20pt;
 }
 
 .spacing-5{
@@ -450,16 +450,16 @@ color: #616161;
 .your{
     letter-spacing: 5px;
     font-weight: bold;
-    font-size: 9px;
+    font-size: 9pt;
 }
 .slider-title{
-    font-size: 62px;
+    font-size: 62pt;
     color: #0b0c11;
     text-wrap: nowrap;
 }
 .slider-subtitle{
     text-align: start;
-    font-size: 14px;
+    font-size: 14pt;
     color: #8f8f8f;
 }
 
@@ -479,7 +479,7 @@ color: #616161;
 .first-navigator{
     cursor: pointer;
     color: #8f8f8f;
-    font-size: 16px;
+    font-size: 16pt;
 
 }
 
@@ -489,7 +489,7 @@ color: #616161;
 }
 
 .main-description{
-    font-size: 26px;
+    font-size: 26pt;
     text-align: center;
     width: 70%;
     color: #333333;
