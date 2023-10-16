@@ -32,7 +32,7 @@
 
 
         <div class="flex flex-col first-slider">
-           <div class="flex first-slider-slide active">
+           <div datafld="1" class="flex first-slider-slide active">
                <div class="flex-1 relative flex flex-col justify-content-center">
                    <div  class="absolute">
                        <span  class="blue-color your">Your</span>
@@ -44,7 +44,7 @@
                    <img  class="w-100" src="./assets/01.jpg" alt="">
                </div>
            </div>
-            <div class="flex first-slider-slide">
+            <div datafld="2" class="flex first-slider-slide">
                 <div class="flex-1 relative flex flex-col justify-content-center">
                     <div  class="absolute">
                         <span  class="blue-color your">Your</span>
@@ -56,7 +56,7 @@
                     <img  class="w-100" src="./assets/02.jpg" alt="">
                 </div>
             </div>
-            <div class="flex first-slider-slide">
+            <div datafld="3" class="flex first-slider-slide">
                 <div class="flex-1 relative flex flex-col justify-content-center">
                     <div  class="absolute">
                         <span  class="blue-color your">Your</span>
@@ -68,7 +68,7 @@
                     <img  class="w-100" src="./assets/03.jpg" alt="">
                 </div>
             </div>
-            <div class="flex first-slider-slide">
+            <div datafld="4" class="flex first-slider-slide">
                 <div class="flex-1 relative flex flex-col justify-content-center">
                     <div  class="absolute">
                         <span  class="blue-color your">Your</span>
@@ -82,7 +82,7 @@
             </div>
             <div class="flex gap-1">
                 <span class="first-navigator left"> < </span>
-                <span>1 of 4</span>
+                <span> <span class="current-slide">1</span> of <span class="total-of-slides"></span></span>
                 <span class="first-navigator right"> > </span>
             </div>
         </div>
@@ -209,7 +209,7 @@
                     </div>
                 </div>
             </div>
-            <span class="absolute second-slider-navigator fs-42"><</span>
+            <span class="absolute second-slider-navigator navigator fs-42"><</span>
 
             <div class="responsive-slider">
                <div class="responsive-slider-card active">

@@ -1,8 +1,15 @@
 
 
 $(document).ready(function (e) {
+    let totalSlides = $(".first-slider .first-slider-slide").length
+    $(".total-of-slides").text(totalSlides)
 
+    $('.first-slider .first-slider-slide').each(function(index) {
+        $(this).attr('data-slide-index', index);
+    });
 
+    let   activeSlideIndex = $('.first-slider-slide.active').attr('data-slide-index');
+    $('.slider-counter').text(activeSlideIndex);
 
     $(".right").on("click" , function () {
         let currentSlide = $(".first-slider-slide.active")
